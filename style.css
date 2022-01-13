@@ -24,7 +24,7 @@ div{
 .container2{
     height: 600px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .boxarticle{
@@ -123,6 +123,12 @@ h5{
   
     .container{
         background-color: purple;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2{
         height: 600px;
         display: flex;
         flex-direction: column;
@@ -150,6 +156,17 @@ h5{
         margin-bottom: 20%;
         margin-top: 20px;
     
+    }
+
+    .boxinfo2{
+        background-color: rgb(255, 255, 255);
+        height: 600px;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left; 
     }
 
 } 
